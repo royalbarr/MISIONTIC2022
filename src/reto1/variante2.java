@@ -31,7 +31,9 @@ public class variante2 {
     
     public void comprarDatos(int c){
         double costoDatos;
-        
+        if (c < 10){
+            costoDatos = double c * 3000;
+        } 
         
         
     }
